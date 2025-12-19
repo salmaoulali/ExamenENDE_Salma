@@ -1,10 +1,19 @@
 package examen;
 
 public class Vehiculo {
+	
 	String matricula;
 	String marca;
 	String modelo;
 	double precioHora;
+	
+	/**
+	 * 
+	 * @param matricula
+	 * @param marca
+	 * @param modelo
+	 * @param precioHora
+	 */
 	public Vehiculo(String matricula, String marca, String modelo, double precioHora) {
 		super();
 		this.matricula = matricula;
